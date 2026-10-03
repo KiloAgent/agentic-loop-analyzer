@@ -15,12 +15,23 @@ Copy `skills/agentic-loop-analyzer/` into one of:
 - `.codex/skills/agentic-loop-analyzer/`
 - `.github/skills/agentic-loop-analyzer/`
 
-From a local clone, this command listed the skill and installed it (verified against this tree; Cursor project path is `.agents/skills/`):
+Verified with `skills@latest` (`--list` then `--copy`). Cursor project install lands in `.agents/skills/`.
+
+From a local clone of this tree:
 
 ```bash
 npx skills add . --list -y
 npx skills add . --copy -y -a cursor -s agentic-loop-analyzer
 ```
+
+From this PR branch:
+
+```bash
+npx skills add https://github.com/KiloAgent/agentic-loop-analyzer.git#cursor/initial-release-6957 --list -y
+npx skills add https://github.com/KiloAgent/agentic-loop-analyzer.git#cursor/initial-release-6957 --copy -y -a cursor -s agentic-loop-analyzer
+```
+
+`npx skills add KiloAgent/agentic-loop-analyzer --list -y` clones the default branch. Against current `main` the CLI printed `No valid skills found`.
 
 Chat users with no skills directory: paste `skills/agentic-loop-analyzer/PASTE_IN.md` into the chat.
 
