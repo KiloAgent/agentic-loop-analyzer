@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022"],
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "skipLibCheck": true,
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "types": ["node"]
+  },
+  "include": [
+    "skills/agentic-loop-analyzer/scripts/**/*.ts",
+    "skills/agentic-loop-analyzer/evals/**/*.ts",
+    "tests/**/*.ts"
+  ]
+}

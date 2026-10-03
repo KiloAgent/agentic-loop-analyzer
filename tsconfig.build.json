@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "rootDir": "skills/agentic-loop-analyzer/scripts",
+    "types": []
+  },
+  "include": ["skills/agentic-loop-analyzer/scripts/**/*.ts"],
+  "exclude": ["skills/agentic-loop-analyzer/scripts/**/*.test.ts"]
+}
