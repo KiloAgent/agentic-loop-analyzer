@@ -1,6 +1,6 @@
 # Loop Audit evals
 
-Eight cases. The default run uses `fixtures.ts` through the mock provider. No network and no API keys.
+Eight cases. The default run uses `fixtures.ts` through the mock provider. No network and no API keys. Run from the repository root.
 
 | id                | intent                                                              |
 | ----------------- | ------------------------------------------------------------------- |

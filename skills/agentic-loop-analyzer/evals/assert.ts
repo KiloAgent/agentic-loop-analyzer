@@ -1,6 +1,6 @@
 import { expect } from "vitest";
-import { parseLlmOutput, type LlmOutput } from "../src/schemas.js";
-import { scoreLoopAudit } from "../src/score.js";
+import { parseLlmOutput, type LlmOutput } from "../scripts/schemas.js";
+import { scoreLoopAudit } from "../scripts/score.js";
 import { EVAL_CASES, type EvalCaseId } from "./cases.js";
 
 export function assertEvalCase(id: EvalCaseId, llm: LlmOutput) {

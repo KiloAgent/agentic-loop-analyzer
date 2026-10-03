@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
-import { EVAL_CASES } from "../evals/cases.js";
-import { EVAL_FIXTURES } from "../evals/fixtures.js";
-import { generateLlmOutput, type LlmProvider } from "../src/index.js";
+import { EVAL_CASES } from "../skills/agentic-loop-analyzer/evals/cases.js";
+import { EVAL_FIXTURES } from "../skills/agentic-loop-analyzer/evals/fixtures.js";
+import { generateLlmOutput, type LlmProvider } from "../skills/agentic-loop-analyzer/scripts/index.js";
 
 describe("generateLlmOutput", () => {
   it("retries once when the first JSON fails validation", async () => {

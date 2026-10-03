@@ -6,3 +6,8 @@ coverage/
 .dev.vars
 *.log
 .DS_Store
+.claude/
+.cursor/skills/
+.codex/
+.github/skills/
+.agents/

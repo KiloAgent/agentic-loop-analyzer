@@ -6,9 +6,9 @@
     "declarationMap": true,
     "sourceMap": true,
     "outDir": "dist",
-    "rootDir": "src",
+    "rootDir": "skills/agentic-loop-analyzer/scripts",
     "types": []
   },
-  "include": ["src/**/*.ts"],
-  "exclude": ["src/**/*.test.ts"]
+  "include": ["skills/agentic-loop-analyzer/scripts/**/*.ts"],
+  "exclude": ["skills/agentic-loop-analyzer/scripts/**/*.test.ts"]
 }

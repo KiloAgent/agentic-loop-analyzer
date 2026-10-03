@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { cleanText, parseLoopAuditInput } from "../src/index.js";
+import { cleanText, parseLoopAuditInput } from "../skills/agentic-loop-analyzer/scripts/index.js";
 
 describe("loop audit schemas", () => {
   it("rejects short descriptions after trim", () => {

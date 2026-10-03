@@ -22,9 +22,7 @@
   ],
   "files": [
     "dist",
-    "src",
-    "evals",
-    "SKILL.md",
+    "skills",
     "README.md",
     "LICENSE"
   ],
@@ -43,7 +41,7 @@
     "build": "tsc -p tsconfig.build.json",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
-    "evals": "vitest run evals"
+    "evals": "vitest run skills/agentic-loop-analyzer/evals"
   },
   "dependencies": {
     "zod": "^4.1.12"

@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { createMockProvider } from "../src/mock-provider.js";
-import { generateLlmOutput, runLoopAudit } from "../src/provider.js";
+import { createMockProvider } from "../scripts/mock-provider.js";
+import { generateLlmOutput, runLoopAudit } from "../scripts/provider.js";
 import { EVAL_CASES } from "./cases.js";
 import { EVAL_FIXTURES } from "./fixtures.js";
 import { assertEvalCase } from "./assert.js";

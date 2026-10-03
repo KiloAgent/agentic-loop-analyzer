@@ -1,7 +1,7 @@
 /** Eight eval cases. Expected verdict ranges and schema checks. No app imports. */
 
-import type { Frequency, Verdict } from "../src/rubric.js";
-import type { LoopAuditInput } from "../src/schemas.js";
+import type { Frequency, Verdict } from "../scripts/rubric.js";
+import type { LoopAuditInput } from "../scripts/schemas.js";
 
 export type EvalCaseId =
   | "coi_chase"

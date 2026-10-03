@@ -6,7 +6,7 @@ import {
   rankTasks,
   volumeScoreFromHours,
   weightedScore,
-} from "../src/index.js";
+} from "../skills/agentic-loop-analyzer/scripts/index.js";
 
 describe("loop audit math", () => {
   it("maps volume bands from monthly hours", () => {

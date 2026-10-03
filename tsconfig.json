@@ -11,5 +11,9 @@
     "noEmit": true,
     "types": ["node"]
   },
-  "include": ["src/**/*.ts", "evals/**/*.ts", "tests/**/*.ts"]
+  "include": [
+    "skills/agentic-loop-analyzer/scripts/**/*.ts",
+    "skills/agentic-loop-analyzer/evals/**/*.ts",
+    "tests/**/*.ts"
+  ]
 }

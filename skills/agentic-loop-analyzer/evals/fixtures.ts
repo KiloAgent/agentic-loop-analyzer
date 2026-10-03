@@ -1,6 +1,6 @@
 /** Deterministic mocked LLM outputs for the eight eval cases. No app imports. */
 
-import type { LlmOutput } from "../src/schemas.js";
+import type { LlmOutput } from "../scripts/schemas.js";
 import type { EvalCaseId } from "./cases.js";
 
 function zeros() {

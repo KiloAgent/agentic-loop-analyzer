@@ -1,6 +1,6 @@
 /** Map an input or prompt back to a mocked fixture. Used by the mock provider. */
 
-import type { LlmOutput, LoopAuditInput } from "../src/schemas.js";
+import type { LlmOutput, LoopAuditInput } from "../scripts/schemas.js";
 import { EVAL_CASES } from "./cases.js";
 import { EVAL_FIXTURES } from "./fixtures.js";
 
