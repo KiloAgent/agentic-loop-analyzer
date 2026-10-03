@@ -1,0 +1,56 @@
+{
+  "name": "agentic-loop-analyzer",
+  "version": "0.1.0",
+  "description": "Score how well an agentic loop is set up and rank the best loops to hand off, with hours per month.",
+  "type": "module",
+  "license": "MIT",
+  "author": "KiloAgent",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KiloAgent/agentic-loop-analyzer.git"
+  },
+  "homepage": "https://www.kiloagent.com/tools/loop-audit",
+  "bugs": {
+    "url": "https://github.com/KiloAgent/agentic-loop-analyzer/issues"
+  },
+  "keywords": [
+    "agentic",
+    "loop",
+    "audit",
+    "scoring",
+    "rubric"
+  ],
+  "files": [
+    "dist",
+    "src",
+    "evals",
+    "SKILL.md",
+    "README.md",
+    "LICENSE"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "evals": "vitest run evals"
+  },
+  "dependencies": {
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.8",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  }
+}
